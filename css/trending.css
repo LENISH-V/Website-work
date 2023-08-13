@@ -1,0 +1,53 @@
+.trending_item_card_view {
+        display: flex;
+}
+
+.trending_item_holder {
+        margin-top: 50px;
+        column-gap: 2%;
+        row-gap: 2%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+}
+
+.trending_item_card_view_main {
+        text-align: center;
+}
+
+.trending_card_inner_img {
+        display: block;
+        background-color: #e6c6c5;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 50%;
+        padding: 10px;
+        overflow: hidden;
+}
+
+.trending_card_inner_img img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+}
+
+.trending_item_upper_card {
+        background-color: antiquewhite;
+        padding: 3%;
+        font-size: 80%;
+        border-radius: 50%;
+        height: fit-content;
+        margin-left: -30%;
+}
+
+.trending_area {
+        padding-top: 10%;
+        margin-top: 10%;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 600px) {
+        .trending_item_holder {
+                grid-template-columns: auto;
+        }
+}

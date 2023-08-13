@@ -1,0 +1,25 @@
+.links_holder {
+        text-align: center;
+        justify-content: center;
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: 30% 30% 30%;
+}
+
+.links_main_class {
+        margin-top: 60px;
+}
+
+.getInTouch_holder img {
+        display: inline-block;
+        width: 5%;
+        margin-left: 10px;
+        height: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+        .links_holder {
+                grid-template-columns: auto;
+        }
+}

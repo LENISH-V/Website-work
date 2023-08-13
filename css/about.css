@@ -1,0 +1,47 @@
+.about_area {
+        /* background-image: url('background_img/05.jpg'); */
+
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50%;
+        padding-top: 5%;
+}
+
+.about_carousel_ourt_div {
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 5px;
+        box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.9);
+}
+
+.about_inside_div {
+        margin-inline: 10%;
+        align-items:center;
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+}
+
+.carousel_inner_div .area_img_div{
+        height: 50%;
+        overflow: hidden;
+        border-radius: 20px;
+        border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.about_us_text {
+        text-align:center;
+}
+
+.about_us_text_view {
+        padding: 30px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1000px) {
+        .about_inside_div {
+                grid-template-columns: auto;
+        }
+}
